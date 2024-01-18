@@ -1,0 +1,168 @@
+
+.new_local_container {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 20 10 20 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+}
+
+.new_local_container Label {
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.3em;
+}
+
+.new_local_container TextField {
+    -fx-pref-height: 40;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+.new_local_container DatePicker {
+    -fx-pref-height: 40;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+.new_local_container Button {
+    -fx-background-color: linear-gradient(to left, #cc181a, #c34646);
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-pref-width: 230;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-text-fill: #FFFFFF;
+}
+.save_button {
+    -fx-background-color: #09c246;
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 25px;
+    -fx-text-decoration: none;
+    -fx-margin: 10px 20px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+.update_button {
+    -fx-background-color: linear-gradient(to left, #4b74f3, #4b99f3);
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 25px;
+    -fx-text-decoration: none;
+    -fx-margin: 10px 2px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+
+}
+
+.delete-button {
+    -fx-background-color: #fd6868;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 7px;
+    -fx-alignment: CENTER;
+    -fx-start-margin: 5px;
+    /* Add any additional styles you want to customize */
+}
+.new_local_container Button:hover {
+    -fx-cursor: hand;
+}
+.page_title {
+    -fx-text-fill: #cc181a;
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+    -fx-font-family: Calibri;
+}
+
+/* Add your existing styles here */
+
+.restaurant-cell {
+    /* Customize cell styles as needed */
+}
+
+.restaurant-name-label {
+    -fx-text-fill: black; /* Customize text color */
+    /* Add other label styles as needed */
+}
+
+.delete-button {
+    /* Add button styles as needed */
+}
+
+.main_title{
+
+    -fx-background-color:white;
+    -fx-font-size: 30px;
+    -fx-font-weight: 600;
+
+    -fx-color: transparent;
+    -fx-background-clip: text;
+    -fx-webkit-background-clip: text;
+}
+
+
+.nav-bar{
+    -fx-background-color: linear-gradient(to left, #111152, #dc3858);
+
+}
+
+.side-bar{
+    -fx-background-color: #393750;
+
+}
+
+
+.side-bar-button{
+    -fx-background-color: transparent;
+    -fx-text-fill:white;
+    -fx-alignment: CENTER-left;
+    -fx-letter-spacing: 20px;
+    -fx-font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Yellow Button for In Progress */
+.in-progress-button {
+
+    -fx-font-weight: bold;
+    -fx-background-color: #ffd700; /* Yellow */
+}
+
+/* Green Button for Accept */
+.accept-button {
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-background-color: #00ff00; /* Green */
+}
+
+/* Red Button for Refuse */
+.refuse-button {
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-background-color: #ff0000; /* Red */
+}
+
+/* Add other styles as needed */
+
+
+/* Add these styles to your existing stylesheet */
+
+/* In Progress Button Style */
+.in-progress-button {
+    -fx-background-color: yellow;
+}
+
+/* Accepted Button Style */
+.accept-button {
+    -fx-background-color: green;
+}
+
+/* Refused Button Style */
+.refuse-button {
+    -fx-background-color: red;
+}

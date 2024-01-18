@@ -1,0 +1,31 @@
+/* //              table View                  */
+
+
+.table-view {
+    -fx-control-inner-background: #f4f4f4; /* Background color of the table */
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff; /* Background color of the cells */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e0e0e0; /* Hover color */
+}
+
+.table-column {
+    -fx-alignment: CENTER; /* Center-align text in cells */
+}
+
+.table-header {
+    -fx-background-color: #4f81bd; /* Header background color */
+    -fx-text-fill: white; /* Header text color */
+}
+
+.delete-button {
+    -fx-background-color: #ff6666;
+}
+
+
+
+/* //              table View                  */
